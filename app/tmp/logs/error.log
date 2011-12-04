@@ -1,0 +1,13 @@
+2011-12-04 19:10:40 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /var/www/html/auth/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-04 19:11:00 Error: [MissingViewException] View file "/var/www/html/auth/app/View/Pages/loggedin.ctp" is missing.
+#0 /var/www/html/auth/lib/Cake/View/View.php(363): View->_getViewFileName('loggedin')
+#1 /var/www/html/auth/lib/Cake/Controller/Controller.php(900): View->render('loggedin', NULL)
+#2 /var/www/html/auth/lib/Cake/Controller/PagesController.php(80): Controller->render('loggedin')
+#3 [internal function]: PagesController->display('loggedin')
+#4 /var/www/html/auth/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/html/auth/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/auth/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/auth/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
