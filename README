@@ -1,6 +1,7 @@
 The book auth example code for lazy people (like me).
 
 INSTALLATION:
-
-git clone
+// create a new mysql database named: cakephp_auth_example
+git clone git://github.com/steinkel/cakephp-2.0-auth-example.git authexample
+cd authexample/app
 Console/cake schema create
