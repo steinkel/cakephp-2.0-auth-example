@@ -1,0 +1,6 @@
+The book auth example code for lazy people (like me).
+
+INSTALLATION:
+
+git clone
+Console/cake schema create
